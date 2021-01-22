@@ -44,7 +44,7 @@ We'll be working primarily in `main.tsx` and `styles.css` located in the `src/` 
 Now, let's tweak `main.tsx` to a minimum, so that it only contains the bare bones:
 
 ```tsx
-import { AvPanel, AvStandardGrabbable, AvTransform, DefaultLanding } from '@aardvarkxr/aardvark-react';
+import { AvPanel, AvStandardGrabbable, GrabbableStyle, AvTransform, DefaultLanding } from '@aardvarkxr/aardvark-react';
 import { Av, g_builtinModelBox } from '@aardvarkxr/aardvark-shared';
 import bind from 'bind-decorator';
 import * as React from 'react';
